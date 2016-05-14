@@ -1,0 +1,1197 @@
+Audit violations for FreeCol at 5/14/16 6:22 PM
+
+Description,Recommendations,Severity,Resource,Line
+Append String (293)
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 647
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 648
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 650
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 651
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 658
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 659
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 660
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 668
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 669
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 670
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 673
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyPanel.java	Line 674
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ReportTradePanel.java	Line 197
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	DebugUtils.java	Line 837
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Relation.java	Line 90
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FreeColXMLReader.java	Line 293
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FreeColXMLReader.java	Line 294
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Ability.java	Line 571
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	AbstractUnit.java	Line 257
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	AbstractUnit.java	Line 258
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Building.java	Line 646
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Building.java	Line 647
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Building.java	Line 649
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Building.java	Line 650
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	BuildQueue.java	Line 237
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	BuildQueue.java	Line 239
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	BuildQueue.java	Line 241
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTile.java	Line 534
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTile.java	Line 535
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTile.java	Line 536
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTile.java	Line 537
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTradeItem.java	Line 189
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTradeItem.java	Line 190
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonyTradeItem.java	Line 190
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	DiplomaticTrade.java	Line 517
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	DiplomaticTrade.java	Line 518
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	DiplomaticTrade.java	Line 519
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	DiplomaticTrade.java	Line 524
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Disaster.java	Line 208
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Disaster.java	Line 210
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Disaster.java	Line 212
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Effect.java	Line 209
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Effect.java	Line 210
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Effect.java	Line 211
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Effect.java	Line 212
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FeatureContainer.java	Line 491
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FeatureContainer.java	Line 493
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FeatureContainer.java	Line 499
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FeatureContainer.java	Line 501
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FeatureContainer.java	Line 503
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoldTradeItem.java	Line 171
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoldTradeItem.java	Line 171
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoldTradeItem.java	Line 171
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsContainer.java	Line 595
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsContainer.java	Line 598
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsContainer.java	Line 604
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsTradeItem.java	Line 198
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsTradeItem.java	Line 199
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsTradeItem.java	Line 199
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	GoodsTradeItem.java	Line 200
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	HistoryEvent.java	Line 271
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	HistoryEvent.java	Line 272
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	HistoryEvent.java	Line 273
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	HistoryEvent.java	Line 278
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	HistoryEvent.java	Line 278
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	InciteTradeItem.java	Line 178
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	InciteTradeItem.java	Line 179
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	InciteTradeItem.java	Line 179
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	IndianSettlement.java	Line 1626
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	IndianSettlement.java	Line 1626
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	LastSale.java	Line 168
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	LastSale.java	Line 171
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Limit.java	Line 367
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Limit.java	Line 368
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Map.java	Line 1355
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Market.java	Line 568
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Market.java	Line 571
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Market.java	Line 573
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	MarketData.java	Line 463
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	MarketData.java	Line 464
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	MarketData.java	Line 475
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Modifier.java	Line 660
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Modifier.java	Line 661
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Modifier.java	Line 668
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Modifier.java	Line 671
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	NationOptions.java	Line 328
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	NationOptions.java	Line 330
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	NationOptions.java	Line 331
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	NationOptions.java	Line 332
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Occupation.java	Line 184
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Occupation.java	Line 185
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionInfo.java	Line 169
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 130
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 130
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 132
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 212
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 214
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionMap.java	Line 215
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionType.java	Line 526
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionType.java	Line 526
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionType.java	Line 528
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ProductionType.java	Line 549
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Region.java	Line 620
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Region.java	Line 621
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Region.java	Line 623
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Region.java	Line 624
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Region.java	Line 625
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Role.java	Line 396
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Role.java	Line 396
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Role.java	Line 398
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Scope.java	Line 383
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Scope.java	Line 383
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Scope.java	Line 386
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Scope.java	Line 386
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Scope.java	Line 390
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StanceTradeItem.java	Line 180
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StanceTradeItem.java	Line 181
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StanceTradeItem.java	Line 181
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringTemplate.java	Line 643
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringTemplate.java	Line 648
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringTemplate.java	Line 649
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringTemplate.java	Line 652
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringTemplate.java	Line 657
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2258
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2259
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2760
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2761
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2762
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2762
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Tile.java	Line 2764
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovement.java	Line 676
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovement.java	Line 680
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovement.java	Line 681
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovementStyle.java	Line 127
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileItemContainer.java	Line 673
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileItemContainer.java	Line 674
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileItemContainer.java	Line 675
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRoute.java	Line 395
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRoute.java	Line 396
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRoute.java	Line 399
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRoute.java	Line 400
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRouteStop.java	Line 340
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRouteStop.java	Line 341
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRouteStop.java	Line 343
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TradeRouteStop.java	Line 345
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TypeCountMap.java	Line 99
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TypeCountMap.java	Line 102
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TypeCountMap.java	Line 102
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TypeCountMap.java	Line 104
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 2370
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 2372
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 3996
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 3998
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4000
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4612
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4618
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4619
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4621
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4623
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4625
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Unit.java	Line 4627
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTradeItem.java	Line 164
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTradeItem.java	Line 165
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTradeItem.java	Line 165
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeChange.java	Line 356
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeChange.java	Line 357
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeChange.java	Line 359
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeChange.java	Line 360
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeChange.java	Line 362
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Connection.java	Line 555
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Connection.java	Line 555
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	Connection.java	Line 557
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	LoginMessage.java	Line 228
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	LoginMessage.java	Line 230
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	AbstractUnitOption.java	Line 271
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	AbstractUnitOption.java	Line 272
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	AbstractUnitOption.java	Line 272
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	BooleanOption.java	Line 129
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	BooleanOption.java	Line 131
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FileOption.java	Line 134
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	FileOption.java	Line 136
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	IntegerOption.java	Line 212
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	IntegerOption.java	Line 214
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ListOption.java	Line 295
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ListOption.java	Line 299
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ListOption.java	Line 303
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ModOption.java	Line 178
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ModOption.java	Line 178
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	OptionGroup.java	Line 749
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	OptionGroup.java	Line 751
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	PercentageOption.java	Line 57
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	PercentageOption.java	Line 58
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	SelectOption.java	Line 227
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	SelectOption.java	Line 230
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringOption.java	Line 201
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	StringOption.java	Line 205
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TextOption.java	Line 130
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TextOption.java	Line 132
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeOption.java	Line 308
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	UnitTypeOption.java	Line 312
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	LogBuilder.java	Line 202
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	RandomUtils.java	Line 70
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovementPlan.java	Line 354
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovementPlan.java	Line 355
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovementPlan.java	Line 358
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TileImprovementPlan.java	Line 359
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	WorkLocationPlan.java	Line 117
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	WorkLocationPlan.java	Line 118
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	WorkLocationPlan.java	Line 120
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 206
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 209
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 212
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 440
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 441
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 443
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 444
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 445
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 446
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 447
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 448
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 522
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 523
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 525
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 526
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 527
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 588
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 589
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 591
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 592
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 714
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 715
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 717
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 718
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 719
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 720
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 821
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 822
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 824
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 825
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 881
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 882
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 884
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 885
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 886
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 949
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 950
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 952
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 953
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1046
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1047
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1049
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1051
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1053
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1053
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1114
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1115
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1117
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1118
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1187
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1188
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1190
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1191
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1192
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1193
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1194
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1260
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1261
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1263
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1264
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1331
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1332
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1334
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1335
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1336
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1337
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ChangeSet.java	Line 1939
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1224
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1227
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1664
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1670
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1677
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 1684
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 4539
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 4540
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerPlayer.java	Line 4541
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerRegion.java	Line 548
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerRegion.java	Line 548
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ServerRegion.java	Line 549
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonizationMapReader.java	Line 171
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	ColonizationMapReader.java	Line 173
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TranslationReport.java	Line 259
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TranslationReport.java	Line 261
+	String literal can be replaced by a character literal	Replace the string literal with a character literal.	Medium Severity	TranslationReport.java	Line 263
+Avoid Octal Literals (2)
+	Octal literal	Remove all leading zeros so that it will no longer be an octal representation.	Low Severity	ColonizationMapLoader.java	Line 133
+	Octal literal	Remove all leading zeros so that it will no longer be an octal representation.	Low Severity	ColonizationMapLoader.java	Line 144
+Command Execution (1)
+	Do not use Runtime.exec() to execute commands	Find a platform independent way of causing the same behavior.	Medium Severity	AboutPanel.java	Line 189
+Duplicate Import Declarations (1)
+	Duplicate import: import net.sf.freecol.common.model.Location;	Delete the duplicate import.	Medium Severity	BuildColonyMission.java	Line 36
+Duplicate Property Name (4)
+	Duplicate property name: model.option.landUnitCheat.shortDescription	Delete the duplicate property.	High Severity	FreeColMessages.properties	Line 665
+	Duplicate property name: mapGeneratorOptions.terrainGenerator.name	Delete the duplicate property.	High Severity	FreeColMessages.properties	Line 868
+	Duplicate property name: mapGeneratorOptions.terrainGenerator.shortDescription	Delete the duplicate property.	High Severity	FreeColMessages.properties	Line 869
+	Duplicate property name: clientOptions.mods.shortDescription	Delete the duplicate property.	High Severity	FreeColMessages.properties	Line 1225
+Empty Catch Clause (49)
+	Empty catch clause for exception ioe	Delete the empty catch clause.	Medium Severity	ConnectController.java	Line 211
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	InGameController.java	Line 1559
+	Empty catch clause for exception ex	Delete the empty catch clause.	Medium Severity	PreGameInputHandler.java	Line 302
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 159
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 566
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 823
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 848
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 944
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 961
+	Empty catch clause for exception cce	Delete the empty catch clause.	Medium Severity	Canvas.java	Line 1182
+	Empty catch clause for exception x	Delete the empty catch clause.	Medium Severity	AboutPanel.java	Line 190
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	BuildingDetailPanel.java	Line 159
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	RecruitPanel.java	Line 136
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	UnitDetailPanel.java	Line 182
+	Empty catch clause for exception he	Delete the empty catch clause.	Medium Severity	SwingGUI.java	Line 345
+	Empty catch clause for exception he	Delete the empty catch clause.	Medium Severity	SwingGUI.java	Line 351
+	Empty catch clause for exception npe	Delete the empty catch clause.	Medium Severity	DebugUtils.java	Line 568
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeColDebugger.java	Line 164
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	FreeColDebugger.java	Line 271
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeColSeed.java	Line 60
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Messages.java	Line 271
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	Messages.java	Line 290
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	SimpleZippedAnimation.java	Line 230
+	Empty catch clause for exception cce	Delete the empty catch clause.	Medium Severity	Colony.java	Line 642
+	Empty catch clause for exception cce	Delete the empty catch clause.	Medium Severity	Colony.java	Line 672
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	EuropeWas.java	Line 64
+	Empty catch clause for exception ex	Delete the empty catch clause.	Medium Severity	FreeColGameObject.java	Line 110
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeColObject.java	Line 185
+	Empty catch clause for exception cce	Delete the empty catch clause.	Medium Severity	StringTemplate.java	Line 196
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	ClaimLandMessage.java	Line 109
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	ClaimLandMessage.java	Line 114
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	DOMMessage.java	Line 520
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	DOMMessage.java	Line 539
+	Empty catch clause for exception ex	Delete the empty catch clause.	Medium Severity	DOMMessage.java	Line 573
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FirstContactMessage.java	Line 115
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	IndianDemandMessage.java	Line 142
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	LoginMessage.java	Line 191
+	Empty catch clause for exception ie	Delete the empty catch clause.	Medium Severity	NetworkReplyObject.java	Line 72
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	AudioMixerOption.java	Line 108
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	SoundPlayer.java	Line 221
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeCol.java	Line 1115
+	Empty catch clause for exception ioe	Delete the empty catch clause.	Medium Severity	FreeCol.java	Line 1221
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeCol.java	Line 1253
+	Empty catch clause for exception nfe	Delete the empty catch clause.	Medium Severity	FreeCol.java	Line 1283
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	NetworkHandler.java	Line 141
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	DummyConnection.java	Line 114
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	GenerateDocumentation.java	Line 143
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	InstallerTranslations.java	Line 203
+	Empty catch clause for exception e	Delete the empty catch clause.	Medium Severity	MergeTranslations.java	Line 122
+Empty For Statement (2)
+	Empty for loop	Restructure the for loop so that it is more obvious what is suppose to be happening each time through the loop.	Medium Severity	PathNode.java	Line 229
+	Empty for loop	Restructure the for loop so that it is more obvious what is suppose to be happening each time through the loop.	Medium Severity	PathNode.java	Line 240
+Empty Statement (7)
+	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 489
+	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 520
+	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 553
+	Empty statement	Delete the empty statement.	High Severity	PathNode.java	Line 229
+	Empty statement	Delete the empty statement.	High Severity	PathNode.java	Line 240
+	Empty statement	Delete the empty statement.	High Severity	AIMain.java	Line 624
+	Empty statement	Delete the empty statement.	High Severity	ServerPlayer.java	Line 1875
+Empty While Statement (7)
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	NameCache.java	Line 489
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	NameCache.java	Line 520
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	NameCache.java	Line 553
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	AIColony.java	Line 713
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	AIMain.java	Line 624
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	Mission.java	Line 599
+	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	ServerPlayer.java	Line 1875
+Environment Variable Access (1)
+	Do not use System.getenv() to access environment variables	Use system properties instead of environment variables.	High Severity	FreeColDirectories.java	Line 253
+Equality Test with Boolean Literal (2)
+	Equality test with boolean literal: false	Remove the comparison with false.	Medium Severity	ListOptionUI.java	Line 224
+	Equality test with boolean literal: true	Remove the comparison with true.	Medium Severity	LandMap.java	Line 446
+Extra Semicolon (50)
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ConnectController.java	Line 179
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 253
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 256
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 955
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 2965
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 3613
+	Extra semicolon	Delete the extra semicolon.	Low Severity	InGameController.java	Line 4720
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ClientOptionsDialog.java	Line 70
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ErrorPanel.java	Line 85
+	Extra semicolon	Delete the extra semicolon.	Low Severity	LabourData.java	Line 543
+	Extra semicolon	Delete the extra semicolon.	Low Severity	OptionsDialog.java	Line 261
+	Extra semicolon	Delete the extra semicolon.	Low Severity	SelectDestinationDialog.java	Line 184
+	Extra semicolon	Delete the extra semicolon.	Low Severity	DebugUtils.java	Line 591
+	Extra semicolon	Delete the extra semicolon.	Low Severity	DebugUtils.java	Line 601
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FreeColDebugger.java	Line 380
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FreeColModFile.java	Line 82
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FreeColSavegameFile.java	Line 92
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Colony.java	Line 642
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Game.java	Line 387
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Game.java	Line 1317
+	Extra semicolon	Delete the extra semicolon.	Low Severity	CostDeciders.java	Line 98
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Player.java	Line 1293
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Player.java	Line 2967
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Resource.java	Line 167
+	Extra semicolon	Delete the extra semicolon.	Low Severity	SimpleCombatModel.java	Line 269
+	Extra semicolon	Delete the extra semicolon.	Low Severity	SimpleCombatModel.java	Line 363
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Specification.java	Line 1966
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Unit.java	Line 2578
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Unit.java	Line 2590
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Unit.java	Line 3837
+	Extra semicolon	Delete the extra semicolon.	Low Severity	AttackMessage.java	Line 112
+	Extra semicolon	Delete the extra semicolon.	Low Severity	BuildColonyMessage.java	Line 108
+	Extra semicolon	Delete the extra semicolon.	Low Severity	Connection.java	Line 320
+	Extra semicolon	Delete the extra semicolon.	Low Severity	DemandTributeMessage.java	Line 103
+	Extra semicolon	Delete the extra semicolon.	Low Severity	EquipForRoleMessage.java	Line 105
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FirstContactMessage.java	Line 146
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FreeCol.java	Line 654
+	Extra semicolon	Delete the extra semicolon.	Low Severity	FreeCol.java	Line 657
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ColonyPlan.java	Line 789
+	Extra semicolon	Delete the extra semicolon.	Low Severity	EuropeanAIPlayer.java	Line 1487
+	Extra semicolon	Delete the extra semicolon.	Low Severity	BuildColonyMission.java	Line 472
+	Extra semicolon	Delete the extra semicolon.	Low Severity	NativeAIPlayer.java	Line 290
+	Extra semicolon	Delete the extra semicolon.	Low Severity	NativeAIPlayer.java	Line 297
+	Extra semicolon	Delete the extra semicolon.	Low Severity	NativeAIPlayer.java	Line 307
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ServerColony.java	Line 217
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ServerPlayer.java	Line 2778
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ServerUnit.java	Line 687
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ServerUnit.java	Line 877
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ServerUnit.java	Line 993
+	Extra semicolon	Delete the extra semicolon.	Low Severity	ColonizationMapReader.java	Line 167
+Float Comparison (15)
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	MapViewer.java	Line 1191
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	MapViewer.java	Line 1195
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	ModifierFormat.java	Line 53
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	ModifierFormat.java	Line 65
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	Colony.java	Line 820
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	FeatureContainer.java	Line 291
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	Modifier.java	Line 561
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	Modifier.java	Line 562
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	Player.java	Line 3126
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	SimpleCombatModel.java	Line 101
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	SimpleCombatModel.java	Line 101
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	Unit.java	Line 403
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	ImageResource.java	Line 151
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	SZAResource.java	Line 101
+	Cannot compare floating-point values using the equals (==) operator	Compare the two float values to see if they are close in value.	Medium Severity	EuropeanAIPlayer.java	Line 1590
+Import of Implicit Package (57)
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""FreeColClientHolder"""	Delete the import.	Medium Severity	ClientInputHandler.java	Line 29
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""FreeColClientHolder"""	Delete the import.	Medium Severity	ConnectController.java	Line 37
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""ConnectController"""	Delete the import.	Medium Severity	FreeColClientHolder.java	Line 23
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""InGameController"""	Delete the import.	Medium Severity	FreeColClientHolder.java	Line 24
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""FreeColClientHolder"""	Delete the import.	Medium Severity	MapEditorController.java	Line 33
+	"Explicit import of type from ""net.sf.freecol.client.control"": ""FreeColClientHolder"""	Delete the import.	Medium Severity	PreGameController.java	Line 27
+	"Explicit import of type from ""net.sf.freecol.common.io"": ""FreeColModFile"""	Delete the import.	Medium Severity	Mods.java	Line 35
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""GoodsType"""	Delete the import.	Medium Severity	AbstractGoods.java	Line 30
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""StringTemplate"""	Delete the import.	Medium Severity	BuildableType.java	Line 35
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Occupation"""	Delete the import.	Medium Severity	Colony.java	Line 41
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	Colony.java	Line 42
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	DiplomaticTrade.java	Line 31
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Ability"""	Delete the import.	Medium Severity	Force.java	Line 31
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""AbstractUnit"""	Delete the import.	Medium Severity	Force.java	Line 32
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Force"""	Delete the import.	Medium Severity	Force.java	Line 33
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""FreeColSpecObject"""	Delete the import.	Medium Severity	Force.java	Line 34
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Specification"""	Delete the import.	Medium Severity	Force.java	Line 35
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""UnitType"""	Delete the import.	Medium Severity	Force.java	Line 36
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""FreeColObject"""	Delete the import.	Medium Severity	FreeColSpecObject.java	Line 25
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Specification"""	Delete the import.	Medium Severity	FreeColSpecObject.java	Line 26
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""FreeColObject"""	Delete the import.	Medium Severity	Game.java	Line 41
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	HistoryEvent.java	Line 27
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Player"""	Delete the import.	Medium Severity	InciteTradeItem.java	Line 27
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	LandMap.java	Line 29
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""ModelMessage"""	Delete the import.	Medium Severity	LostCityRumour.java	Line 34
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""AbstractGoods"""	Delete the import.	Medium Severity	MarketWas.java	Line 27
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""GoodsType"""	Delete the import.	Medium Severity	MarketWas.java	Line 28
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Market"""	Delete the import.	Medium Severity	MarketWas.java	Line 29
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""MarketData"""	Delete the import.	Medium Severity	MarketWas.java	Line 30
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Player"""	Delete the import.	Medium Severity	MarketWas.java	Line 31
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""TransactionListener"""	Delete the import.	Medium Severity	MarketWas.java	Line 32
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Force"""	Delete the import.	Medium Severity	Monarch.java	Line 35
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	NationSummary.java	Line 26
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	PathNode.java	Line 23
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""AbstractGoods"""	Delete the import.	Medium Severity	ProductionType.java	Line 34
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Tile"""	Delete the import.	Medium Severity	Settlement.java	Line 36
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Named"""	Delete the import.	Medium Severity	Stance.java	Line 23
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Tension"""	Delete the import.	Medium Severity	Stance.java	Line 24
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	StanceTradeItem.java	Line 27
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	Tile.java	Line 42
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	TileImprovement.java	Line 34
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	TileItemContainer.java	Line 34
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Stance"""	Delete the import.	Medium Severity	TradeItem.java	Line 26
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""GameOptions"""	Delete the import.	Medium Severity	TradeRoute.java	Line 33
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""CombatModel"""	Delete the import.	Medium Severity	Unit.java	Line 39
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""Direction"""	Delete the import.	Medium Severity	Unit.java	Line 40
+	"Explicit import of type from ""net.sf.freecol.common.model"": ""AbstractGoods"""	Delete the import.	Medium Severity	WorkLocation.java	Line 36
+	"Explicit import of type from ""net.sf.freecol.common.networking"": ""DOMMessage"""	Delete the import.	Medium Severity	DOMMessage.java	Line 56
+	"Explicit import of type from ""net.sf.freecol.common.networking"": ""AddPlayerMessage"""	Delete the import.	Medium Severity	LoginMessage.java	Line 25
+	"Explicit import of type from ""net.sf.freecol.common.networking"": ""ErrorMessage"""	Delete the import.	Medium Severity	LoginMessage.java	Line 26
+	"Explicit import of type from ""net.sf.freecol.common.networking"": ""ErrorMessage"""	Delete the import.	Medium Severity	ServerAPI.java	Line 65
+	"Explicit import of type from ""net.sf.freecol.common.networking"": ""MultipleMessage"""	Delete the import.	Medium Severity	ServerAPI.java	Line 66
+	"Explicit import of type from ""net.sf.freecol.common.util"": ""CachingFunction"""	Delete the import.	Medium Severity	CollectionUtils.java	Line 42
+	"Explicit import of type from ""net.sf.freecol.server.ai"": ""GoodsWish"""	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 85
+	"Explicit import of type from ""net.sf.freecol.server.ai"": ""ValuedAIObject"""	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 100
+	"Explicit import of type from ""net.sf.freecol.server.ai"": ""WorkerWish"""	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 101
+	"Explicit import of type from ""net.sf.freecol.server.model"": ""ServerPlayer"""	Delete the import.	Medium Severity	ServerColony.java	Line 61
+Integer Division in a Floating-point Expression (19)
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 656
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 664
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 728
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 806
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 807
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 822
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1054
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1056
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1059
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1066
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1068
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1071
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1077
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1078
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1081
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1082
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1085
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	Flag.java	Line 1086
+	Integer division in a floating-point expression	Cast one of the integers to a float. This will prevent round off error.	Medium Severity	FreeCol.java	Line 1080
+Log Exceptions (138)
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ConnectController.java	Line 211
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ConnectController.java	Line 446
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	InGameController.java	Line 570
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	InGameController.java	Line 1559
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	InGameInputHandler.java	Line 227
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MapEditorController.java	Line 115
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MapEditorController.java	Line 219
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	PreGameInputHandler.java	Line 358
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColClient.java	Line 835
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 566
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 823
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 829
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 848
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 854
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 944
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 961
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 1182
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Canvas.java	Line 2647
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	AboutPanel.java	Line 190
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	BuildingDetailPanel.java	Line 159
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ChatPanel.java	Line 111
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ColonyPanel.java	Line 965
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ColopediaGameObjectTypePanel.java	Line 229
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DefaultTransferHandler.java	Line 131
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DefaultTransferHandler.java	Line 141
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ErrorPanel.java	Line 84
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FatherDetailPanel.java	Line 112
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MapSizeDialog.java	Line 83
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	NewPanel.java	Line 438
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ParametersDialog.java	Line 121
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ParametersDialog.java	Line 127
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	RecruitPanel.java	Line 136
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ScaleMapSizeDialog.java	Line 121
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ScaleMapSizeDialog.java	Line 127
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SelectTributeAmountDialog.java	Line 84
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ServerListPanel.java	Line 202
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	StartGamePanel.java	Line 351
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	UnitDetailPanel.java	Line 182
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ScrollThread.java	Line 83
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ScrollThread.java	Line 89
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SwingGUI.java	Line 345
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SwingGUI.java	Line 351
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 209
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 238
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 265
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 378
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 568
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 928
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DebugUtils.java	Line 1015
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDebugger.java	Line 164
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDebugger.java	Line 172
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDebugger.java	Line 191
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDebugger.java	Line 271
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDebugger.java	Line 379
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColSeed.java	Line 60
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Messages.java	Line 226
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Messages.java	Line 271
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Messages.java	Line 290
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Number.java	Line 54
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColDataFile.java	Line 223
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColModFile.java	Line 81
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColSavegameFile.java	Line 91
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColXMLReader.java	Line 337
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColXMLReader.java	Line 358
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColXMLReader.java	Line 379
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColXMLReader.java	Line 419
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SimpleZippedAnimation.java	Line 230
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Colony.java	Line 642
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Colony.java	Line 672
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	EuropeWas.java	Line 64
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColGameObject.java	Line 110
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColObject.java	Line 185
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Game.java	Line 333
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Game.java	Line 1040
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Game.java	Line 1316
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	NationOptions.java	Line 274
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Specification.java	Line 614
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Specification.java	Line 1850
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	StringTemplate.java	Line 196
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Tile.java	Line 2588
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	TileImprovementStyle.java	Line 122
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Unit.java	Line 1438
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	BuyMessage.java	Line 102
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	BuyPropositionMessage.java	Line 102
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ClaimLandMessage.java	Line 109
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ClaimLandMessage.java	Line 114
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ClaimLandMessage.java	Line 137
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Connection.java	Line 201
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Connection.java	Line 319
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	Connection.java	Line 338
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DOMMessage.java	Line 520
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DOMMessage.java	Line 539
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DOMMessage.java	Line 573
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	EmigrateUnitMessage.java	Line 90
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	EquipForRoleMessage.java	Line 124
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FirstContactMessage.java	Line 115
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	InciteMessage.java	Line 166
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	IndianDemandMessage.java	Line 142
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	LoadGoodsMessage.java	Line 143
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	LoginMessage.java	Line 191
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MonarchActionMessage.java	Line 134
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	NetworkReplyObject.java	Line 72
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	RearrangeColonyMessage.java	Line 84
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	RearrangeColonyMessage.java	Line 185
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ReceivingThread.java	Line 289
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SellMessage.java	Line 102
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SellPropositionMessage.java	Line 102
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SetCurrentStopMessage.java	Line 106
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	UnloadGoodsMessage.java	Line 122
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	AudioMixerOption.java	Line 108
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ColorResource.java	Line 99
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SoundPlayer.java	Line 205
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SoundPlayer.java	Line 221
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SoundPlayer.java	Line 238
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 828
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1081
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1115
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1187
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1221
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1253
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeCol.java	Line 1283
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MetaServer.java	Line 79
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	NetworkHandler.java	Line 114
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	NetworkHandler.java	Line 141
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	AIInGameInputHandler.java	Line 296
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	AIMain.java	Line 265
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	AIUnit.java	Line 294
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	TransportMission.java	Line 1166
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	PreGameInputHandler.java	Line 253
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	FreeColServer.java	Line 643
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	ServerGame.java	Line 193
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DummyConnection.java	Line 114
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	DummyConnection.java	Line 150
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	GenerateDocumentation.java	Line 143
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	InstallerTranslations.java	Line 203
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MapConverter.java	Line 60
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	MergeTranslations.java	Line 122
+	Caught exception not logged	Use one of the logging methods to log the exception.	Medium Severity	SaveGameValidator.java	Line 76
+Obey General Contract of Equals (16)
+	Missing inheritance check	Add an instanceof test.	Medium Severity	TileViewer.java	Line 97
+	Missing inheritance check	Add an instanceof test.	Medium Severity	ColonyTradeItem.java	Line 133
+	Missing inheritance check	Add an instanceof test.	Medium Severity	EquipmentType.java	Line 201
+	Missing inheritance check	Add an instanceof test.	Medium Severity	GoldTradeItem.java	Line 122
+	Missing identity check	Add a test for object identity.	Medium Severity	Goods.java	Line 245
+	Missing inheritance check	Add an instanceof test.	Medium Severity	GoodsTradeItem.java	Line 135
+	Missing inheritance check	Add an instanceof test.	Medium Severity	InciteTradeItem.java	Line 128
+	Missing inheritance check	Add an instanceof test.	Medium Severity	StanceTradeItem.java	Line 141
+	Missing inheritance check	Add an instanceof test.	Medium Severity	TileTypeChange.java	Line 126
+	Missing inheritance check	Add an instanceof test.	Medium Severity	TradeItem.java	Line 240
+	Missing identity check	Add a test for object identity.	Medium Severity	Turn.java	Line 269
+	Missing inheritance check	Add an instanceof test.	Medium Severity	UnitTradeItem.java	Line 125
+	Missing inheritance check	Add an instanceof test.	Medium Severity	UnitWas.java	Line 220
+	Missing inheritance check	Add an instanceof test.	Medium Severity	REFAIPlayer.java	Line 118
+	Missing inheritance check	Add an instanceof test.	Medium Severity	ServerGame.java	Line 506
+	Missing inheritance check	Add an instanceof test.	Medium Severity	ForestMaker.java	Line 99
+Override both equals() and hashCode() (3)
+	Missing implementation of the method hashCode()	Add the missing hashCode() method.	Medium Severity	HistoryEvent.java	Line 212
+	Missing implementation of the method hashCode()	Add the missing hashCode() method.	Medium Severity	Operand.java	Line 300
+	Missing implementation of the method hashCode()	Add the missing hashCode() method.	Medium Severity	ServerGame.java	Line 506
+Overriding a Synchronized Method with a Non-synchronized Method (5)
+	Non-synchronized method should not override a synchronized method	Make the method synchronized.	Medium Severity	FreeColCheckBoxUI.java	Line 47
+	Non-synchronized method should not override a synchronized method	Make the method synchronized.	Medium Severity	FreeColRadioButtonUI.java	Line 47
+	Non-synchronized method should not override a synchronized method	Make the method synchronized.	Medium Severity	VideoComponent.java	Line 122
+	Non-synchronized method should not override a synchronized method	Make the method synchronized.	Medium Severity	VideoComponent.java	Line 129
+	Non-synchronized method should not override a synchronized method	Make the method synchronized.	Medium Severity	OggVorbisDecoderFactory.java	Line 195
+Return Boolean Expression Value (2)
+	An if-statement always return true or false	Replace the if-statement with a return-statement whose return value is the expression tested in the if-statement.	Medium Severity	Playlist.java	Line 241
+	An if-statement always return true or false	Replace the if-statement with a return-statement whose return value is the expression tested in the if-statement.	Medium Severity	Playlist.java	Line 252
+Return in Finally (1)
+	Return statement in a finally block	Delete the return statement.	Medium Severity	Canvas.java	Line 1735
+String Comparison (1)
+	Cannot compare strings using the not equals (!=) operator	Replace the comparison with equals().	Medium Severity	Scope.java	Line 235
+"Unnecessary ""instanceof"" Test (1)"
+	Unnecessary instanceof test comparing to FreeColObject	"Remove the ""instanceof"" test."	Medium Severity	Scope.java	Line 182
+Unnecessary Import Declarations (460)
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ClientOptions.java	Line 24
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ClientOptions.java	Line 30
+	Unnecessary import: import javax.xml.stream.XMLStreamException;	Delete the import.	Medium Severity	ClientOptions.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.io.Mods;	Delete the import.	Medium Severity	ClientOptions.java	Line 38
+	Unnecessary import: import net.sf.freecol.common.model.Location;	Delete the import.	Medium Severity	ClientOptions.java	Line 43
+	Unnecessary import: import net.sf.freecol.common.option.Option;	Delete the import.	Medium Severity	ClientOptions.java	Line 50
+	Unnecessary import: import net.sf.freecol.client.control.FreeColClientHolder;	Delete the import.	Medium Severity	ClientInputHandler.java	Line 29
+	Unnecessary import: import net.sf.freecol.client.gui.GUI;	Delete the import.	Medium Severity	ClientInputHandler.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.Game;	Delete the import.	Medium Severity	ClientInputHandler.java	Line 31
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ConnectController.java	Line 25
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ConnectController.java	Line 29
+	Unnecessary import: import net.sf.freecol.client.control.FreeColClientHolder;	Delete the import.	Medium Severity	ConnectController.java	Line 37
+	Unnecessary import: import net.sf.freecol.client.gui.ChoiceItem;	Delete the import.	Medium Severity	ConnectController.java	Line 38
+	Unnecessary import: import net.sf.freecol.client.gui.GUI;	Delete the import.	Medium Severity	ConnectController.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.FreeColException;	Delete the import.	Medium Severity	ConnectController.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.io.FreeColXMLReader;	Delete the import.	Medium Severity	ConnectController.java	Line 47
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	ConnectController.java	Line 49
+	Unnecessary import: import net.sf.freecol.common.model.Tile;	Delete the import.	Medium Severity	ConnectController.java	Line 52
+	Unnecessary import: import net.sf.freecol.common.model.Unit;	Delete the import.	Medium Severity	ConnectController.java	Line 53
+	Unnecessary import: import net.sf.freecol.common.networking.Connection;	Delete the import.	Medium Severity	ConnectController.java	Line 54
+	Unnecessary import: import net.sf.freecol.common.networking.LoginMessage;	Delete the import.	Medium Severity	ConnectController.java	Line 58
+	Unnecessary import: import net.sf.freecol.client.control.ConnectController;	Delete the import.	Medium Severity	FreeColClientHolder.java	Line 23
+	Unnecessary import: import net.sf.freecol.client.control.InGameController;	Delete the import.	Medium Severity	FreeColClientHolder.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.networking.ServerAPI;	Delete the import.	Medium Severity	FreeColClientHolder.java	Line 31
+	Unnecessary import: import net.sf.freecol.client.gui.GUI;	Delete the import.	Medium Severity	InGameController.java	Line 38
+	Unnecessary import: import net.sf.freecol.common.model.AbstractUnit;	Delete the import.	Medium Severity	InGameController.java	Line 47
+	Unnecessary import: import net.sf.freecol.common.model.Specification;	Delete the import.	Medium Severity	InGameController.java	Line 89
+	Unnecessary import: import net.sf.freecol.common.networking.ServerAPI;	Delete the import.	Medium Severity	InGameController.java	Line 106
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.Ability;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.HistoryEvent;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 37
+	Unnecessary import: import net.sf.freecol.common.model.LastSale;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.model.ModelMessage;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 40
+	Unnecessary import: import net.sf.freecol.common.model.Modifier;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.networking.AssignTradeRouteMessage;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 53
+	Unnecessary import: import net.sf.freecol.common.networking.DeleteTradeRouteMessage;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 57
+	Unnecessary import: import net.sf.freecol.common.networking.LoginMessage;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 66
+	Unnecessary import: import java.io.FileNotFoundException;	Delete the import.	Medium Severity	MapEditorController.java	Line 24
+	Unnecessary import: import javax.xml.stream.XMLStreamException;	Delete the import.	Medium Severity	MapEditorController.java	Line 29
+	Unnecessary import: import net.sf.freecol.client.control.FreeColClientHolder;	Delete the import.	Medium Severity	MapEditorController.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.FreeColException;	Delete the import.	Medium Severity	MapEditorController.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.io.FreeColSavegameFile;	Delete the import.	Medium Severity	MapEditorController.java	Line 38
+	Unnecessary import: import net.sf.freecol.client.control.FreeColClientHolder;	Delete the import.	Medium Severity	PreGameController.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.GameOptions;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 42
+	Unnecessary import: import net.sf.freecol.common.option.MapGeneratorOptions;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 49
+	Unnecessary import: import net.sf.freecol.common.option.OptionGroup;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 50
+	Unnecessary import: import org.w3c.dom.NodeList;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 53
+	Unnecessary import: import net.sf.freecol.common.networking.ServerAPI;	Delete the import.	Medium Severity	FreeColClient.java	Line 59
+	Unnecessary import: import net.sf.freecol.client.gui.action.ColopediaAction.PanelType;	Delete the import.	Medium Severity	ActionManager.java	Line 27
+	Unnecessary import: import net.sf.freecol.client.gui.action.DisplayTileTextAction.DisplayText;	Delete the import.	Medium Severity	ActionManager.java	Line 28
+	Unnecessary import: import java.awt.Image;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 22
+	Unnecessary import: import javax.swing.ImageIcon;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 25
+	Unnecessary import: import javax.swing.JLabel;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 26
+	Unnecessary import: import net.sf.freecol.client.gui.ImageLibrary;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.io.sza.AnimationEvent;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.io.sza.ImageAnimationEvent;	Delete the import.	Medium Severity	UnitImageAnimation.java	Line 31
+	Unnecessary import: import javax.swing.JLabel;	Delete the import.	Medium Severity	UnitMoveAnimation.java	Line 25
+	Unnecessary import: import net.sf.freecol.client.gui.ImageLibrary;	Delete the import.	Medium Severity	UnitMoveAnimation.java	Line 29
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	Canvas.java	Line 41
+	Unnecessary import: import java.lang.reflect.InvocationTargetException;	Delete the import.	Medium Severity	GUI.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.Constants;	Delete the import.	Medium Severity	GUI.java	Line 50
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	MapViewer.java	Line 31
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	DebugMenu.java	Line 23
+	Unnecessary import: import java.util.Map;	Delete the import.	Medium Severity	DebugMenu.java	Line 26
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	DebugMenu.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.model.Monarch;	Delete the import.	Medium Severity	DebugMenu.java	Line 44
+	Unnecessary import: import net.sf.freecol.common.resources.ImageResource;	Delete the import.	Medium Severity	DebugMenu.java	Line 47
+	Unnecessary import: import net.sf.freecol.common.resources.ResourceManager;	Delete the import.	Medium Severity	DebugMenu.java	Line 48
+	Unnecessary import: import static net.sf.freecol.common.util.CollectionUtils.*;	Delete the import.	Medium Severity	DebugMenu.java	Line 50
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 22
+	Unnecessary import: import java.io.File;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 25
+	Unnecessary import: import java.io.FileNotFoundException;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.io.FreeColDirectories;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 37
+	Unnecessary import: import net.sf.freecol.common.option.FileOption;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 38
+	Unnecessary import: import net.sf.freecol.common.option.MapGeneratorOptions;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.option.OptionGroup;	Delete the import.	Medium Severity	MapEditorMenuBar.java	Line 40
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	AudioMixerOptionUI.java	Line 23
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	FileOptionUI.java	Line 22
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	ListOptionUI.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.option.Option;	Delete the import.	Medium Severity	ListOptionUI.java	Line 44
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	CaptureGoodsDialog.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	ColonyPanel.java	Line 78
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	CompactLabourReport.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.Unit;	Delete the import.	Medium Severity	CompactLabourReport.java	Line 48
+	Unnecessary import: import net.sf.freecol.client.gui.panel.Flag.Background;	Delete the import.	Medium Severity	ConfirmDeclarationDialog.java	Line 46
+	Unnecessary import: import net.sf.freecol.client.gui.panel.Flag.Decoration;	Delete the import.	Medium Severity	ConfirmDeclarationDialog.java	Line 47
+	Unnecessary import: import net.sf.freecol.client.gui.panel.Flag.UnionPosition;	Delete the import.	Medium Severity	ConfirmDeclarationDialog.java	Line 48
+	Unnecessary import: import net.sf.freecol.client.gui.panel.Flag.UnionShape;	Delete the import.	Medium Severity	ConfirmDeclarationDialog.java	Line 49
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	DefaultTransferHandler.java	Line 40
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	DifficultyDialog.java	Line 22
+	Unnecessary import: import java.io.File;	Delete the import.	Medium Severity	DifficultyDialog.java	Line 23
+	Unnecessary import: import java.io.BufferedInputStream;	Delete the import.	Medium Severity	ErrorPanel.java	Line 23
+	Unnecessary import: import java.io.FileInputStream;	Delete the import.	Medium Severity	ErrorPanel.java	Line 25
+	Unnecessary import: import static net.sf.freecol.common.model.Constants.*;	Delete the import.	Medium Severity	EuropePanel.java	Line 53
+	Unnecessary import: import net.sf.freecol.client.gui.panel.MapEditorTransformPanel.MapTransform;	Delete the import.	Medium Severity	InfoPanel.java	Line 48
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	InformationPanel.java	Line 24
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	LoadDialog.java	Line 22
+	Unnecessary import: import net.sf.freecol.client.gui.panel.MapEditorTransformPanel.MapTransform;	Delete the import.	Medium Severity	MapControls.java	Line 44
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	MapEditorTransformPanel.java	Line 27
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	MapEditorTransformPanel.java	Line 28
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	MapEditorTransformPanel.java	Line 31
+	Unnecessary import: import net.sf.freecol.client.gui.ChoiceItem;	Delete the import.	Medium Severity	MapEditorTransformPanel.java	Line 43
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	MapGeneratorOptionsDialog.java	Line 24
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	MapGeneratorOptionsDialog.java	Line 26
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	MapGeneratorOptionsDialog.java	Line 32
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	ModifierFormat.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Scope;	Delete the import.	Medium Severity	ModifierFormat.java	Line 36
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	MonarchDialog.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.model.GoodsType;	Delete the import.	Medium Severity	NegotiationDialog.java	Line 66
+	Unnecessary import: import net.sf.freecol.common.model.Specification;	Delete the import.	Medium Severity	OptionsDialog.java	Line 38
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	ParametersDialog.java	Line 23
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	PlayersTable.java	Line 24
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	PlayersTable.java	Line 29
+	Unnecessary import: import net.sf.freecol.client.gui.action.ColopediaAction.PanelType;	Delete the import.	Medium Severity	PlayersTable.java	Line 55
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 23
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 24
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 25
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 31
+	Unnecessary import: import net.sf.freecol.client.gui.panel.ColonyPanel.TilesPanel.ASingleTilePanel;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 48
+	Unnecessary import: import net.sf.freecol.client.gui.panel.UnitLabel.UnitAction;	Delete the import.	Medium Severity	QuickActionMenu.java	Line 49
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ReportClassicColonyPanel.java	Line 28
+	Unnecessary import: import javax.swing.JPanel;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 41
+	Unnecessary import: import net.sf.freecol.client.ClientOptions;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 47
+	Unnecessary import: import net.sf.freecol.common.model.ColonyTile;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 57
+	Unnecessary import: import net.sf.freecol.common.model.Goods;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 61
+	Unnecessary import: import net.sf.freecol.common.model.Location;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 64
+	Unnecessary import: import net.sf.freecol.common.model.Occupation;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 66
+	Unnecessary import: import net.sf.freecol.common.model.Settlement;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 70
+	Unnecessary import: import static net.sf.freecol.common.util.StringUtils.*;	Delete the import.	Medium Severity	ReportCompactColonyPanel.java	Line 81
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ReportExplorationPanel.java	Line 23
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	ReportExplorationPanel.java	Line 24
+	Unnecessary import: import java.util.List;	Delete the import.	Medium Severity	ReportExplorationPanel.java	Line 26
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	ReportPanel.java	Line 25
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	ReportProductionPanel.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.model.TypeCountMap;	Delete the import.	Medium Severity	ReportProductionPanel.java	Line 41
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	ReportTurnPanel.java	Line 24
+	Unnecessary import: import java.util.stream.Stream;	Delete the import.	Medium Severity	ReportTurnPanel.java	Line 32
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ReportUnitPanel.java	Line 28
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ResourcesDetailPanel.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.model.FreeColSpecObjectType;	Delete the import.	Medium Severity	ResourcesDetailPanel.java	Line 36
+	Unnecessary import: import net.sf.freecol.common.model.Scope;	Delete the import.	Medium Severity	ResourcesDetailPanel.java	Line 40
+	Unnecessary import: import static net.sf.freecol.common.util.StringUtils.*;	Delete the import.	Medium Severity	ResourcesDetailPanel.java	Line 43
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	SaveDialog.java	Line 22
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	ScaleMapSizeDialog.java	Line 24
+	Unnecessary import: import java.awt.event.ItemEvent;	Delete the import.	Medium Severity	SelectDestinationDialog.java	Line 23
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	SelectDestinationDialog.java	Line 30
+	Unnecessary import: import javax.swing.event.ChangeEvent;	Delete the import.	Medium Severity	SelectDestinationDialog.java	Line 43
+	Unnecessary import: import net.sf.freecol.common.model.PathNode;	Delete the import.	Medium Severity	SelectDestinationDialog.java	Line 66
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	StartGamePanel.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Nation;	Delete the import.	Medium Severity	StartGamePanel.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.model.NationOptions.NationState;	Delete the import.	Medium Severity	StartGamePanel.java	Line 43
+	Unnecessary import: import java.awt.datatransfer.UnsupportedFlavorException;	Delete the import.	Medium Severity	TradeRouteInputPanel.java	Line 27
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	TradeRouteInputPanel.java	Line 35
+	Unnecessary import: import javax.swing.event.ListSelectionEvent;	Delete the import.	Medium Severity	TradeRoutePanel.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.model.Ability;	Delete the import.	Medium Severity	UnitDetailPanel.java	Line 42
+	Unnecessary import: import net.sf.freecol.common.util.RandomChoice;	Delete the import.	Medium Severity	UnitDetailPanel.java	Line 54
+	Unnecessary import: import java.awt.event.HierarchyEvent;	Delete the import.	Medium Severity	FreeColOptionPaneUI.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.model.TileImprovement;	Delete the import.	Medium Severity	RoadPainter.java	Line 39
+	Unnecessary import: import java.beans.PropertyChangeEvent;	Delete the import.	Medium Severity	SwingGUI.java	Line 40
+	Unnecessary import: import java.util.Locale;	Delete the import.	Medium Severity	SwingGUI.java	Line 44
+	Unnecessary import: import net.sf.freecol.common.option.LanguageOption.Language;	Delete the import.	Medium Severity	SwingGUI.java	Line 101
+	Unnecessary import: import java.awt.event.ActionEvent;	Delete the import.	Medium Severity	TilePopup.java	Line 25
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	TilePopup.java	Line 26
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	TilePopup.java	Line 29
+	Unnecessary import: import net.sf.freecol.client.gui.panel.ReportPanel;	Delete the import.	Medium Severity	TilePopup.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.debug.DebugUtils;	Delete the import.	Medium Severity	TilePopup.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.model.Map;	Delete the import.	Medium Severity	TilePopup.java	Line 47
+	Unnecessary import: import net.sf.freecol.common.model.PathNode;	Delete the import.	Medium Severity	TilePopup.java	Line 48
+	Unnecessary import: import net.sf.freecol.common.util.LogBuilder;	Delete the import.	Medium Severity	TilePopup.java	Line 56
+	Unnecessary import: import net.sf.freecol.common.debug.FreeColDebugger;	Delete the import.	Medium Severity	UserServerAPI.java	Line 26
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	DebugUtils.java	Line 23
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	DebugUtils.java	Line 24
+	Unnecessary import: import javax.swing.event.ChangeEvent;	Delete the import.	Medium Severity	DebugUtils.java	Line 33
+	Unnecessary import: import net.sf.freecol.client.gui.ChoiceItem;	Delete the import.	Medium Severity	DebugUtils.java	Line 37
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	FreeColDebugger.java	Line 23
+	Unnecessary import: import java.io.PrintStream;	Delete the import.	Medium Severity	FreeColDebugger.java	Line 25
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	FreeColDebugger.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.i18n.Number.Category;	Delete the import.	Medium Severity	NumberRules.java	Line 31
+	Unnecessary import: import java.io.InputStream;	Delete the import.	Medium Severity	FreeColDataFile.java	Line 27
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	FreeColDataFile.java	Line 32
+	Unnecessary import: import java.util.jar.JarFile;	Delete the import.	Medium Severity	FreeColDataFile.java	Line 38
+	Unnecessary import: import net.sf.freecol.common.resources.ImageResource;	Delete the import.	Medium Severity	FreeColDataFile.java	Line 42
+	Unnecessary import: import static net.sf.freecol.common.util.CollectionUtils.*;	Delete the import.	Medium Severity	FreeColDataFile.java	Line 48
+	Unnecessary import: import java.io.FileInputStream;	Delete the import.	Medium Severity	FreeColDirectories.java	Line 22
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	FreeColDirectories.java	Line 23
+	Unnecessary import: import java.lang.reflect.InvocationTargetException;	Delete the import.	Medium Severity	FreeColXMLReader.java	Line 30
+	Unnecessary import: import java.io.IOException;	Delete the import.	Medium Severity	Mods.java	Line 23
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	Mods.java	Line 25
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	Mods.java	Line 31
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	Mods.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.io.FreeColModFile;	Delete the import.	Medium Severity	Mods.java	Line 35
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	SimpleZippedAnimation.java	Line 41
+	Unnecessary import: import java.util.stream.Stream;	Delete the import.	Medium Severity	SimpleZippedAnimation.java	Line 42
+	Unnecessary import: import javax.xml.stream.XMLStreamException;	Delete the import.	Medium Severity	AbstractGoods.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.io.FreeColXMLReader;	Delete the import.	Medium Severity	AbstractGoods.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.io.FreeColXMLWriter;	Delete the import.	Medium Severity	AbstractGoods.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.GoodsType;	Delete the import.	Medium Severity	AbstractGoods.java	Line 30
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	AbstractUnit.java	Line 22
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	AbstractUnit.java	Line 24
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	BuildableType.java	Line 23
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	BuildableType.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.StringTemplate;	Delete the import.	Medium Severity	BuildableType.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.model.UnitLocation.NoAddReason;	Delete the import.	Medium Severity	BuildingType.java	Line 30
+	Unnecessary import: import java.util.stream.Stream;	Delete the import.	Medium Severity	Colony.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.model.Occupation;	Delete the import.	Medium Severity	Colony.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	Colony.java	Line 42
+	Unnecessary import: import net.sf.freecol.common.model.Player.NoClaimReason;	Delete the import.	Medium Severity	ColonyTile.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.model.Colony.ColonyChangeEvent;	Delete the import.	Medium Severity	ColonyWas.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	DiplomaticTrade.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	DiplomaticTrade.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.model.Unit.UnitState;	Delete the import.	Medium Severity	Europe.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	ExportData.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Ability;	Delete the import.	Medium Severity	Force.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.model.AbstractUnit;	Delete the import.	Medium Severity	Force.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.model.Force;	Delete the import.	Medium Severity	Force.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.model.FreeColSpecObject;	Delete the import.	Medium Severity	Force.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.Specification;	Delete the import.	Medium Severity	Force.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.model.UnitType;	Delete the import.	Medium Severity	Force.java	Line 36
+	Unnecessary import: import java.lang.reflect.Field;	Delete the import.	Medium Severity	FreeColGameObject.java	Line 22
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	FreeColObject.java	Line 27
+	Unnecessary import: import java.io.StringReader;	Delete the import.	Medium Severity	FreeColObject.java	Line 30
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	FreeColObject.java	Line 39
+	Unnecessary import: import javax.xml.parsers.DocumentBuilder;	Delete the import.	Medium Severity	FreeColObject.java	Line 41
+	Unnecessary import: import javax.xml.parsers.DocumentBuilderFactory;	Delete the import.	Medium Severity	FreeColObject.java	Line 42
+	Unnecessary import: import javax.xml.parsers.ParserConfigurationException;	Delete the import.	Medium Severity	FreeColObject.java	Line 43
+	Unnecessary import: import javax.xml.transform.Transformer;	Delete the import.	Medium Severity	FreeColObject.java	Line 46
+	Unnecessary import: import javax.xml.transform.TransformerException;	Delete the import.	Medium Severity	FreeColObject.java	Line 47
+	Unnecessary import: import javax.xml.transform.TransformerFactory;	Delete the import.	Medium Severity	FreeColObject.java	Line 48
+	Unnecessary import: import javax.xml.transform.dom.DOMSource;	Delete the import.	Medium Severity	FreeColObject.java	Line 49
+	Unnecessary import: import javax.xml.transform.stream.StreamResult;	Delete the import.	Medium Severity	FreeColObject.java	Line 50
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	FreeColSpecObject.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Specification;	Delete the import.	Medium Severity	FreeColSpecObject.java	Line 26
+	Unnecessary import: import java.io.IOException;	Delete the import.	Medium Severity	Game.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	Game.java	Line 41
+	Unnecessary import: import net.sf.freecol.common.model.NationOptions.NationState;	Delete the import.	Medium Severity	Game.java	Line 42
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	Game.java	Line 43
+	Unnecessary import: import net.sf.freecol.common.util.Introspector;	Delete the import.	Medium Severity	Game.java	Line 46
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	Goods.java	Line 28
+	Unnecessary import: import java.util.HashSet;	Delete the import.	Medium Severity	GoodsType.java	Line 24
+	Unnecessary import: import java.io.FileInputStream;	Delete the import.	Medium Severity	HighScore.java	Line 23
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	HighScore.java	Line 25
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	HighScore.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	HighScore.java	Line 45
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	HistoryEvent.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	HistoryEvent.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	InciteTradeItem.java	Line 27
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	IndianSettlement.java	Line 23
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	IndianSettlement.java	Line 24
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	LandMap.java	Line 22
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	LandMap.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	LandMap.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.Map.Position;	Delete the import.	Medium Severity	LandMap.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	LastSale.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Operand.OperandType;	Delete the import.	Medium Severity	Limit.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Map.Layer;	Delete the import.	Medium Severity	LostCityRumour.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.model.ModelMessage;	Delete the import.	Medium Severity	LostCityRumour.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.AbstractGoods;	Delete the import.	Medium Severity	MarketWas.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.model.GoodsType;	Delete the import.	Medium Severity	MarketWas.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.Market;	Delete the import.	Medium Severity	MarketWas.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.MarketData;	Delete the import.	Medium Severity	MarketWas.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	MarketWas.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.model.TransactionListener;	Delete the import.	Medium Severity	MarketWas.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	AbstractMission.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	CompoundMission.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	GoToMission.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	ImprovementMission.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	ModelMessage.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.model.Force;	Delete the import.	Medium Severity	Monarch.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.model.Player.PlayerType;	Delete the import.	Medium Severity	Monarch.java	Line 36
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	NationSummary.java	Line 26
+	Unnecessary import: import java.util.List;	Delete the import.	Medium Severity	Operand.java	Line 23
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	Operand.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	PathNode.java	Line 23
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	Player.java	Line 25
+	Unnecessary import: import java.util.Locale;	Delete the import.	Medium Severity	Player.java	Line 33
+	Unnecessary import: import java.util.function.ToIntFunction;	Delete the import.	Medium Severity	Player.java	Line 38
+	Unnecessary import: import net.sf.freecol.common.model.NationOptions.NationState;	Delete the import.	Medium Severity	Player.java	Line 47
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	ProductionType.java	Line 25
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	ProductionType.java	Line 27
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ProductionType.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.AbstractGoods;	Delete the import.	Medium Severity	ProductionType.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.Map.Layer;	Delete the import.	Medium Severity	Resource.java	Line 32
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	ResourceType.java	Line 23
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ResourceType.java	Line 24
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	Settlement.java	Line 23
+	Unnecessary import: import java.util.function.Predicate;	Delete the import.	Medium Severity	Settlement.java	Line 28
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	Settlement.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.Tile;	Delete the import.	Medium Severity	Settlement.java	Line 36
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	SimpleCombatModel.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.Modifier.ModifierType;	Delete the import.	Medium Severity	SimpleCombatModel.java	Line 31
+	Unnecessary import: import net.sf.freecol.common.model.UnitTypeChange.ChangeType;	Delete the import.	Medium Severity	SimpleCombatModel.java	Line 32
+	Unnecessary import: import java.io.FileInputStream;	Delete the import.	Medium Severity	Specification.java	Line 23
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	Specification.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.NationOptions.Advantages;	Delete the import.	Medium Severity	Specification.java	Line 50
+	Unnecessary import: import static net.sf.freecol.common.util.StringUtils.*;	Delete the import.	Medium Severity	Specification.java	Line 63
+	Unnecessary import: import net.sf.freecol.common.model.Named;	Delete the import.	Medium Severity	Stance.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Tension;	Delete the import.	Medium Severity	Stance.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	StanceTradeItem.java	Line 27
+	Unnecessary import: import java.util.HashSet;	Delete the import.	Medium Severity	Tile.java	Line 26
+	Unnecessary import: import java.util.function.ToDoubleFunction;	Delete the import.	Medium Severity	Tile.java	Line 32
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	Tile.java	Line 42
+	Unnecessary import: import java.util.EnumMap;	Delete the import.	Medium Severity	TileImprovement.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	TileImprovement.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.Map.Layer;	Delete the import.	Medium Severity	TileImprovement.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.model.Map.Layer;	Delete the import.	Medium Severity	TileItem.java	Line 28
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	TileItemContainer.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	TileItemContainer.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.Map.Layer;	Delete the import.	Medium Severity	TileItemContainer.java	Line 35
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	TileType.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Stance;	Delete the import.	Medium Severity	TradeItem.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.GameOptions;	Delete the import.	Medium Severity	TradeRoute.java	Line 33
+	Unnecessary import: import java.util.function.ToIntFunction;	Delete the import.	Medium Severity	Unit.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.model.CombatModel;	Delete the import.	Medium Severity	Unit.java	Line 39
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	Unit.java	Line 40
+	Unnecessary import: import net.sf.freecol.common.model.UnitTypeChange.ChangeType;	Delete the import.	Medium Severity	Unit.java	Line 45
+	Unnecessary import: import net.sf.freecol.common.model.UnitTypeChange.ChangeType;	Delete the import.	Medium Severity	UnitType.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.model.Colony.ColonyChangeEvent;	Delete the import.	Medium Severity	UnitWas.java	Line 26
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	WorkLocation.java	Line 27
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	WorkLocation.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.AbstractGoods;	Delete the import.	Medium Severity	WorkLocation.java	Line 36
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	AddPlayerMessage.java	Line 28
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	ClientConnection.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.FreeColException;	Delete the import.	Medium Severity	ClientConnection.java	Line 27
+	Unnecessary import: import org.w3c.dom.Element;	Delete the import.	Medium Severity	ClientConnection.java	Line 29
+	Unnecessary import: import java.io.BufferedInputStream;	Delete the import.	Medium Severity	Connection.java	Line 22
+	Unnecessary import: import javax.xml.stream.XMLStreamException;	Delete the import.	Medium Severity	Connection.java	Line 36
+	Unnecessary import: import net.sf.freecol.common.io.FreeColXMLReader;	Delete the import.	Medium Severity	Connection.java	Line 44
+	Unnecessary import: import org.xml.sax.SAXException;	Delete the import.	Medium Severity	Connection.java	Line 49
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	DiplomacyMessage.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.debug.FreeColDebugger;	Delete the import.	Medium Severity	DOMMessage.java	Line 51
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	DOMMessage.java	Line 56
+	Unnecessary import: import net.sf.freecol.server.control.ChangeSet;	Delete the import.	Medium Severity	DOMMessage.java	Line 58
+	Unnecessary import: import net.sf.freecol.server.control.ServerInputHandler;	Delete the import.	Medium Severity	DOMMessage.java	Line 59
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	ErrorMessage.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	GameStateMessage.java	Line 23
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	GameStateMessage.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	HighScoreMessage.java	Line 27
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	HighScoreMessage.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.Tile;	Delete the import.	Medium Severity	InciteMessage.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.networking.AddPlayerMessage;	Delete the import.	Medium Severity	LoginMessage.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.networking.ErrorMessage;	Delete the import.	Medium Severity	LoginMessage.java	Line 26
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	MultipleMessage.java	Line 28
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	RearrangeColonyMessage.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	ScoutSpeakToChiefMessage.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Tile;	Delete the import.	Medium Severity	ScoutSpeakToChiefMessage.java	Line 27
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ServerAPI.java	Line 25
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	ServerAPI.java	Line 26
+	Unnecessary import: import java.util.HashMap;	Delete the import.	Medium Severity	ServerAPI.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.debug.FreeColDebugger;	Delete the import.	Medium Severity	ServerAPI.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.model.AbstractUnit;	Delete the import.	Medium Severity	ServerAPI.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.HighScore;	Delete the import.	Medium Severity	ServerAPI.java	Line 45
+	Unnecessary import: import net.sf.freecol.common.model.NationSummary;	Delete the import.	Medium Severity	ServerAPI.java	Line 52
+	Unnecessary import: import net.sf.freecol.common.networking.ErrorMessage;	Delete the import.	Medium Severity	ServerAPI.java	Line 65
+	Unnecessary import: import net.sf.freecol.common.networking.MultipleMessage;	Delete the import.	Medium Severity	ServerAPI.java	Line 66
+	Unnecessary import: import org.w3c.dom.Node;	Delete the import.	Medium Severity	ServerAPI.java	Line 70
+	Unnecessary import: import org.w3c.dom.NodeList;	Delete the import.	Medium Severity	ServerAPI.java	Line 71
+	Unnecessary import: import net.sf.freecol.common.model.Direction;	Delete the import.	Medium Severity	SpySettlementMessage.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.FreeColGameObject;	Delete the import.	Medium Severity	UpdateGameOptionsMessage.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.model.FreeColGameObject;	Delete the import.	Medium Severity	UpdateMapGeneratorOptionsMessage.java	Line 22
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	UpdateMessage.java	Line 29
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	AbstractUnitOption.java	Line 22
+	Unnecessary import: import java.util.List;	Delete the import.	Medium Severity	AbstractUnitOption.java	Line 23
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	AbstractUnitOption.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.Role;	Delete the import.	Medium Severity	AbstractUnitOption.java	Line 33
+	Unnecessary import: import net.sf.freecol.common.option.UnitTypeOption.TypeSelector;	Delete the import.	Medium Severity	AbstractUnitOption.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.model.Ability;	Delete the import.	Medium Severity	UnitTypeOption.java	Line 31
+	Unnecessary import: import java.beans.PropertyChangeEvent;	Delete the import.	Medium Severity	SoundPlayer.java	Line 22
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	CachingFunction.java	Line 22
+	Unnecessary import: import java.util.function.ToDoubleFunction;	Delete the import.	Medium Severity	CachingFunction.java	Line 26
+	Unnecessary import: import java.util.function.ToIntFunction;	Delete the import.	Medium Severity	CachingFunction.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.util.CachingFunction;	Delete the import.	Medium Severity	CollectionUtils.java	Line 42
+	Unnecessary import: import net.sf.freecol.FreeCol;	Delete the import.	Medium Severity	MetaRegister.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.networking.Connection;	Delete the import.	Medium Severity	MetaRegister.java	Line 29
+	Unnecessary import: import java.util.Comparator;	Delete the import.	Medium Severity	AIInGameInputHandler.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	AIInGameInputHandler.java	Line 47
+	Unnecessary import: import org.w3c.dom.NodeList;	Delete the import.	Medium Severity	AIInGameInputHandler.java	Line 66
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	AIMain.java	Line 26
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	AIMain.java	Line 29
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	AIMessage.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.FreeColException;	Delete the import.	Medium Severity	AIMessage.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.model.FreeColGameObject;	Delete the import.	Medium Severity	AIMessage.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.FreeColObject;	Delete the import.	Medium Severity	AIMessage.java	Line 30
+	Unnecessary import: import net.sf.freecol.common.model.NationSummary;	Delete the import.	Medium Severity	AIMessage.java	Line 35
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	AIObject.java	Line 30
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	AIServerAPI.java	Line 22
+	Unnecessary import: import net.sf.freecol.server.ai.GoodsWish;	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 85
+	Unnecessary import: import net.sf.freecol.server.ai.ValuedAIObject;	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 100
+	Unnecessary import: import net.sf.freecol.server.ai.WorkerWish;	Delete the import.	Medium Severity	EuropeanAIPlayer.java	Line 101
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	BuildColonyMission.java	Line 23
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	BuildColonyMission.java	Line 27
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	CashInTreasureTrainMission.java	Line 24
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	CashInTreasureTrainMission.java	Line 26
+	Unnecessary import: import java.util.function.ToIntFunction;	Delete the import.	Medium Severity	IndianDemandMission.java	Line 27
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	IndianDemandMission.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.model.AbstractGoods;	Delete the import.	Medium Severity	IndianDemandMission.java	Line 35
+	Unnecessary import: import java.util.function.ToIntFunction;	Delete the import.	Medium Severity	Mission.java	Line 24
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	Mission.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.Colony;	Delete the import.	Medium Severity	Mission.java	Line 33
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	PioneeringMission.java	Line 24
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	NativeAIPlayer.java	Line 28
+	Unnecessary import: import java.util.function.Function;	Delete the import.	Medium Severity	NativeAIPlayer.java	Line 31
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	NativeAIPlayer.java	Line 36
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	TileImprovementPlan.java	Line 25
+	Unnecessary import: import java.io.IOException;	Delete the import.	Medium Severity	InGameController.java	Line 22
+	Unnecessary import: import java.util.Collections;	Delete the import.	Medium Severity	InGameController.java	Line 24
+	Unnecessary import: import java.util.Iterator;	Delete the import.	Medium Severity	InGameController.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.networking.Connection;	Delete the import.	Medium Severity	InGameController.java	Line 104
+	Unnecessary import: import net.sf.freecol.common.networking.RearrangeColonyMessage;	Delete the import.	Medium Severity	InGameController.java	Line 114
+	Unnecessary import: import net.sf.freecol.server.control.ChangeSet.ChangePriority;	Delete the import.	Medium Severity	InGameController.java	Line 127
+	Unnecessary import: import net.sf.freecol.server.control.ChangeSet.See;	Delete the import.	Medium Severity	InGameController.java	Line 128
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 22
+	Unnecessary import: import java.util.List;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 23
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 24
+	Unnecessary import: import net.sf.freecol.common.model.Constants;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 55
+	Unnecessary import: import org.w3c.dom.NodeList;	Delete the import.	Medium Severity	InGameInputHandler.java	Line 100
+	Unnecessary import: import java.io.IOException;	Delete the import.	Medium Severity	PreGameController.java	Line 22
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	PreGameController.java	Line 23
+	Unnecessary import: import net.sf.freecol.common.model.Game;	Delete the import.	Medium Severity	PreGameController.java	Line 27
+	Unnecessary import: import net.sf.freecol.common.model.Player;	Delete the import.	Medium Severity	PreGameController.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.networking.Connection;	Delete the import.	Medium Severity	PreGameController.java	Line 29
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	PreGameController.java	Line 30
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	PreGameController.java	Line 32
+	Unnecessary import: import org.w3c.dom.Element;	Delete the import.	Medium Severity	PreGameController.java	Line 34
+	Unnecessary import: import net.sf.freecol.common.option.OptionGroup;	Delete the import.	Medium Severity	PreGameInputHandler.java	Line 41
+	Unnecessary import: import java.io.IOException;	Delete the import.	Medium Severity	ServerInputHandler.java	Line 22
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	ServerInputHandler.java	Line 30
+	Unnecessary import: import java.util.logging.Level;	Delete the import.	Medium Severity	UserConnectionHandler.java	Line 22
+	Unnecessary import: import net.sf.freecol.FreeCol;	Delete the import.	Medium Severity	UserConnectionHandler.java	Line 25
+	Unnecessary import: import net.sf.freecol.common.networking.DOMMessage;	Delete the import.	Medium Severity	UserConnectionHandler.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.networking.MessageHandler;	Delete the import.	Medium Severity	UserConnectionHandler.java	Line 31
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	FreeColServer.java	Line 24
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	FreeColServer.java	Line 28
+	Unnecessary import: import java.util.Map.Entry;	Delete the import.	Medium Severity	FreeColServer.java	Line 31
+	Unnecessary import: import java.util.jar.JarOutputStream;	Delete the import.	Medium Severity	FreeColServer.java	Line 37
+	Unnecessary import: import net.sf.freecol.common.model.NationOptions.NationState;	Delete the import.	Medium Severity	FreeColServer.java	Line 61
+	Unnecessary import: import net.sf.freecol.server.model.ServerPlayer;	Delete the import.	Medium Severity	ServerColony.java	Line 61
+	Unnecessary import: import java.util.ArrayList;	Delete the import.	Medium Severity	ServerEurope.java	Line 22
+	Unnecessary import: import java.util.Arrays;	Delete the import.	Medium Severity	ServerGame.java	Line 24
+	Unnecessary import: import java.util.concurrent.ExecutionException;	Delete the import.	Medium Severity	ServerGame.java	Line 26
+	Unnecessary import: import net.sf.freecol.common.model.FreeColGameObjectListener;	Delete the import.	Medium Severity	ServerGame.java	Line 50
+	Unnecessary import: import java.util.stream.Collectors;	Delete the import.	Medium Severity	ServerIndianSettlement.java	Line 27
+	Unnecessary import: import java.io.RandomAccessFile;	Delete the import.	Medium Severity	ColonizationSaveGameReader.java	Line 22
+	Unnecessary import: import java.io.FileWriter;	Delete the import.	Medium Severity	DesktopEntry.java	Line 25
+	Unnecessary import: import java.io.FileInputStream;	Delete the import.	Medium Severity	FSGConverter.java	Line 25
+	Unnecessary import: import java.io.FileOutputStream;	Delete the import.	Medium Severity	FSGConverter.java	Line 27
+	Unnecessary import: import java.io.BufferedReader;	Delete the import.	Medium Severity	GenerateDocumentation.java	Line 22
+	Unnecessary import: import java.io.FileReader;	Delete the import.	Medium Severity	GenerateDocumentation.java	Line 24
+	Unnecessary import: import java.io.FileWriter;	Delete the import.	Medium Severity	GenerateDocumentation.java	Line 25
+	Unnecessary import: import java.io.BufferedReader;	Delete the import.	Medium Severity	InstallerTranslations.java	Line 22
+	Unnecessary import: import java.io.FileReader;	Delete the import.	Medium Severity	InstallerTranslations.java	Line 24
+	Unnecessary import: import java.io.FileWriter;	Delete the import.	Medium Severity	InstallerTranslations.java	Line 25
+	Unnecessary import: import javax.xml.stream.XMLStreamException;	Delete the import.	Medium Severity	MapConverter.java	Line 28
+	Unnecessary import: import net.sf.freecol.common.FreeColException;	Delete the import.	Medium Severity	MapConverter.java	Line 31
+	Unnecessary import: import java.io.BufferedReader;	Delete the import.	Medium Severity	MergeTranslations.java	Line 22
+	Unnecessary import: import java.io.FileReader;	Delete the import.	Medium Severity	MergeTranslations.java	Line 25
+	Unnecessary import: import org.xml.sax.SAXException;	Delete the import.	Medium Severity	SaveGameValidator.java	Line 35
+Unnecessary Override (3)
+	Unnecessary Override: installUI	Delete the unused method.	Medium Severity	FreeColListUI.java	Line 42
+	Unnecessary Override: complete	Delete the unused method.	Medium Severity	LootSession.java	Line 47
+	Unnecessary Override: complete	Delete the unused method.	Medium Severity	TradeSession.java	Line 68
+Unnecessary Return (2)
+	Unnecessary return	Recommendation...	Medium Severity	EuropeanAIPlayer.java	Line 741
+	Unnecessary return	Recommendation...	Medium Severity	EuropeanAIPlayer.java	Line 752
+Unnecessary Type Cast (15)
+	Unnecessary type cast from null to T	Delete the unnecessary cast.	Medium Severity	FreeColChoiceDialog.java	Line 80
+	Unnecessary type cast from null to T	Delete the unnecessary cast.	Medium Severity	FreeColInputDialog.java	Line 87
+	Unnecessary type cast from null to T	Delete the unnecessary cast.	Medium Severity	FreeColInputDialog.java	Line 89
+	Unnecessary type cast from Unit to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 92
+	Unnecessary type cast from Unit to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 92
+	Unnecessary type cast from Unit to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 104
+	Unnecessary type cast from Colony to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 104
+	Unnecessary type cast from Colony to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 116
+	Unnecessary type cast from Unit to FreeColGameObject	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 116
+	Unnecessary type cast from ServerPlayer to Player	Delete the unnecessary cast.	Medium Severity	DiplomacyMessage.java	Line 302
+	Unnecessary type cast from IndianSettlement to ServerIndianSettlement	Delete the unnecessary cast.	Medium Severity	InciteMessage.java	Line 139
+	Unnecessary type cast to IndianSettlement	Delete the unnecessary cast.	Medium Severity	ScoutSpeakToChiefMessage.java	Line 135
+	Unnecessary type cast from AbstractOption to AbstractOption<T>	Delete the unnecessary cast.	Medium Severity	ListOption.java	Line 273
+	Unnecessary type cast from AbstractOption to AbstractOption<T>	Delete the unnecessary cast.	Medium Severity	ListOption.java	Line 279
+	Unnecessary type cast from TransportableAIObject to AIObject	Delete the unnecessary cast.	Medium Severity	Cargo.java	Line 672
+Use arraycopy() Rather Than a Loop (2)
+	Loop used to copy an array	Use the method arraycopy defined in java.lang.System instead.	Medium Severity	DeclarationPanel.java	Line 185
+	Loop used to copy an array	Use the method arraycopy defined in java.lang.System instead.	Medium Severity	ColonizationMapReader.java	Line 116
+Use charAt() Rather Than startsWith() (3)
+	Use charAt() rather than startsWith()	Replace with a call to charAt().	Medium Severity	Messages.java	Line 792
+	Use charAt() rather than startsWith()	Replace with a call to charAt().	Medium Severity	Messages.java	Line 818
+	Use charAt() rather than startsWith()	Replace with a call to charAt().	Medium Severity	LanguageOption.java	Line 213
+"Use of ""instanceof"" with ""this"" (2)"
+	Use of instanceof with this	Distribute the conditional code to the subclasses being tested for.	Medium Severity	WorkLocation.java	Line 358
+	Use of instanceof with this	Distribute the conditional code to the subclasses being tested for.	Medium Severity	WorkLocation.java	Line 363
