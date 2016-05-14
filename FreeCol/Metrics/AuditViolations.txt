@@ -1,4 +1,4 @@
-Audit violations for FreeCol at 5/14/16 6:22 PM
+Audit violations for FreeCol at 5/14/16 6:39 PM
 
 Description,Recommendations,Severity,Resource,Line
 Append String (293)
@@ -360,14 +360,6 @@ Empty Catch Clause (49)
 Empty For Statement (2)
 	Empty for loop	Restructure the for loop so that it is more obvious what is suppose to be happening each time through the loop.	Medium Severity	PathNode.java	Line 229
 	Empty for loop	Restructure the for loop so that it is more obvious what is suppose to be happening each time through the loop.	Medium Severity	PathNode.java	Line 240
-Empty Statement (7)
-	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 489
-	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 520
-	Empty statement	Delete the empty statement.	High Severity	NameCache.java	Line 553
-	Empty statement	Delete the empty statement.	High Severity	PathNode.java	Line 229
-	Empty statement	Delete the empty statement.	High Severity	PathNode.java	Line 240
-	Empty statement	Delete the empty statement.	High Severity	AIMain.java	Line 624
-	Empty statement	Delete the empty statement.	High Severity	ServerPlayer.java	Line 1875
 Empty While Statement (7)
 	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	NameCache.java	Line 489
 	Empty while statement	Remove the while statement or fix the code so that its body is no longer empty.	Medium Severity	NameCache.java	Line 520

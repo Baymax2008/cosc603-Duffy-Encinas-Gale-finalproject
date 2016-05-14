@@ -66,7 +66,7 @@ td[class=emptyborder] { border: 0px solid #777777; padding: 3px 0px 3px 0px; }
 		<b class="rounded_page"><b class="rounded_page5"></b><b class="rounded_page4"></b><b class="rounded_page3"></b><b class="rounded_page2"><b></b></b><b class="rounded_page1"><b></b></b></b>
 	</div>
 	<div class="majorsection-contents">
-		<p>This document contains the results of auditing FreeCol at 5/14/16 6:22 PM, using the default audit rule set CodePro Core.</p>
+		<p>This document contains the results of auditing FreeCol at 5/14/16 6:39 PM, using the default audit rule set CodePro Core.</p>
 	</div>
 	<table width="100%" border="0">
 		<tr>
@@ -83,54 +83,47 @@ td[class=emptyborder] { border: 0px solid #777777; padding: 3px 0px 3px 0px; }
 					<tr>
 					<td valign="top"><a href="#Append_String">Append String</a>
 					</td>	<td width="10"/>
-					<td valign="top"><a href="#Equality_Test_with_Boolean_Literal">Equality Test with Boolean Literal</a>
-					</td>	<td width="10"/>
-					<td valign="top"><a href="#Return_in_Finally">Return in Finally</a>
-					</td></tr>
-					<tr>
-					<td valign="top"><a href="#Avoid_Octal_Literals">Avoid Octal Literals</a>
-					</td>	<td width="10"/>
 					<td valign="top"><a href="#Extra_Semicolon">Extra Semicolon</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#String_Comparison">String Comparison</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Command_Execution">Command Execution</a>
+					<td valign="top"><a href="#Avoid_Octal_Literals">Avoid Octal Literals</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Float_Comparison">Float Comparison</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Unnecessary_"instanceof"_Test">Unnecessary &quot;instanceof&quot; Test</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Duplicate_Import_Declarations">Duplicate Import Declarations</a>
+					<td valign="top"><a href="#Command_Execution">Command Execution</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Import_of_Implicit_Package">Import of Implicit Package</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Unnecessary_Import_Declarations">Unnecessary Import Declarations</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Duplicate_Property_Name">Duplicate Property Name</a>
+					<td valign="top"><a href="#Duplicate_Import_Declarations">Duplicate Import Declarations</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Integer_Division_in_a_Floating-point_Expression">Integer Division in a Floating-point Expression</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Unnecessary_Override">Unnecessary Override</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Empty_Catch_Clause">Empty Catch Clause</a>
+					<td valign="top"><a href="#Duplicate_Property_Name">Duplicate Property Name</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Log_Exceptions">Log Exceptions</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Unnecessary_Return">Unnecessary Return</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Empty_For_Statement">Empty For Statement</a>
+					<td valign="top"><a href="#Empty_Catch_Clause">Empty Catch Clause</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Obey_General_Contract_of_Equals">Obey General Contract of Equals</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Unnecessary_Type_Cast">Unnecessary Type Cast</a>
 					</td></tr>
 					<tr>
-					<td valign="top"><a href="#Empty_Statement">Empty Statement</a>
+					<td valign="top"><a href="#Empty_For_Statement">Empty For Statement</a>
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Override_both_equals___and_hashCode__">Override both equals() and hashCode()</a>
 					</td>	<td width="10"/>
@@ -150,6 +143,13 @@ td[class=emptyborder] { border: 0px solid #777777; padding: 3px 0px 3px 0px; }
 					</td>	<td width="10"/>
 					<td valign="top"><a href="#Use_of_"instanceof"_with_"this"">Use of &quot;instanceof&quot; with &quot;this&quot;</a>
 					</td></tr>
+					<tr>
+					<td valign="top"><a href="#Equality_Test_with_Boolean_Literal">Equality Test with Boolean Literal</a>
+					</td>	<td width="10"/>
+					<td valign="top"><a href="#Return_in_Finally">Return in Finally</a>
+					</td>	<td width="10"/>
+					<td valign="top">&nbsp;</td>
+					</tr>
 					</table>
 				</div>
 			</td>
@@ -166,7 +166,7 @@ td[class=emptyborder] { border: 0px solid #777777; padding: 3px 0px 3px 0px; }
 				<div class="section-contents">
 					<table class="bodyTable">
 						<tr><th>Violation Severity</th><th>Violation Count</th></tr>
-						<tr class="a"><td>High</td><td align="right">12</td></tr>
+						<tr class="a"><td>High</td><td align="right">5</td></tr>
 						<tr class="b"><td>Medium</td><td align="right">1,100</td></tr>
 						<tr class="a"><td>Low</td><td align="right">52</td></tr>
 					</table>
@@ -3468,87 +3468,6 @@ Restructure the for loop so that it is more obvious what is suppose to be happen
 PathNode.java</td>
 <td>
 240</td>
-</tr>
-			<tr><td class="emptyborder" colspan="5"> </td></tr>
-			<tr><td class="emptyborder" colspan="5">&nbsp;
-			<div>
-				<b class="rounded_section"><b class="rounded_section1"><b></b></b><b class="rounded_section2"><b></b></b><b class="rounded_section3"></b><b class="rounded_section4"></b><b class="rounded_section5"></b></b>
-				<div class="rounded_sectionfg">
-					<h4 class="section-title"><a name="Empty_Statement">Empty Statement (7)</a></h4>
-				</div>
-				<b class="rounded_section"><b class="rounded_section5"></b><b class="rounded_section4"></b><b class="rounded_section3"></b><b class="rounded_section2"><b></b></b><b class="rounded_section1"><b></b></b></b>
-			</div>
-			</td></tr>
-			<tr><td class="emptyborder" colspan="5"></td></tr>
-	<tr class="a">
-			<th>Violation</th>
-<th>Recommendation</th>
-<th>Severity</th>
-<th>Resource</th>
-<th>Line</th>
-	</tr>
-	<tr class="highSeverity a"><td><a href="AuditViolations_files/NameCache.html#line489">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-NameCache.java</td>
-<td>
-489</td>
-</tr>
-	<tr class="highSeverity b"><td><a href="AuditViolations_files/NameCache.html#line520">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-NameCache.java</td>
-<td>
-520</td>
-</tr>
-	<tr class="highSeverity a"><td><a href="AuditViolations_files/NameCache.html#line553">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-NameCache.java</td>
-<td>
-553</td>
-</tr>
-	<tr class="highSeverity b"><td><a href="AuditViolations_files/PathNode.html#line229">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-PathNode.java</td>
-<td>
-229</td>
-</tr>
-	<tr class="highSeverity a"><td><a href="AuditViolations_files/PathNode.html#line240">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-PathNode.java</td>
-<td>
-240</td>
-</tr>
-	<tr class="highSeverity b"><td><a href="AuditViolations_files/AIMain.html#line624">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-AIMain.java</td>
-<td>
-624</td>
-</tr>
-	<tr class="highSeverity a"><td><a href="AuditViolations_files/ServerPlayer.html#line1875">Empty statement</a></td>
-<td>
-Delete the empty statement.		</td>
-<td>High</td>
-<td>
-ServerPlayer.java</td>
-<td>
-1,875</td>
 </tr>
 			<tr><td class="emptyborder" colspan="5"> </td></tr>
 			<tr><td class="emptyborder" colspan="5">&nbsp;
@@ -11197,7 +11116,7 @@ WorkLocation.java</td>
 		<b class="rounded_page"><b class="rounded_page1"><b></b></b><b class="rounded_page2"><b></b></b><b class="rounded_page3"></b><b class="rounded_page4"></b><b class="rounded_page5"></b></b>
 		<div class="rounded_pagefg">
 			<table width="100%" border="0" cellspacing="0" cellpadding="0" ><tr><td valign="middle">
-			<span class="page-footer">Generated at 5/14/16 6:22 PM</span>
+			<span class="page-footer">Generated at 5/14/16 6:39 PM</span>
 			</td><td align="right" valign="middle">
 			<span class="page-footer-details">Powered by <span title="0.0.0, UNKNOWN">CodePro Server</span></span></td></tr></table>
 		</div>
