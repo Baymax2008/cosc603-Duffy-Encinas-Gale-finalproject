@@ -1872,7 +1872,7 @@ outer:  for (Effect effect : effects) {
         // amount of.
         GoodsType extraType;
         while (!(extraType = getRandomMember(logger, "Choose goods type",
-                                             goodsTypes, random)).isStorable());
+                                             goodsTypes, random)).isStorable()){}
 
         // Remove standard amount, and the extra amount.
         for (GoodsType type : goodsTypes) {

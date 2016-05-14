@@ -237,7 +237,7 @@ public class PathNode {
      */
     public PathNode getLastNode() {
         PathNode path;
-        for (path = this; path.next != null; path = path.next);
+        for (path = this; path.next != null; path = path.next){}
         return path;
     }
 

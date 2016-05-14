@@ -621,7 +621,7 @@ public class AIMain extends FreeColObject
             // or aiMain.
             final String mainTag = getTagName();
             while (xr.nextTag() != XMLStreamConstants.END_ELEMENT
-                || !(xr.atTag(tag) || xr.atTag(mainTag)));
+                || !(xr.atTag(tag) || xr.atTag(mainTag))){}
         }
     }
 
