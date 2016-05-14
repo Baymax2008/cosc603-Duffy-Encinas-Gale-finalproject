@@ -180,16 +180,21 @@ public final class ConnectController extends FreeColClientHolder {
         } else if (replyTag == null || reply.isType(replyTag)) {
             return reply;
         } else if (reply.isType(ErrorMessage.TAG)) {
-            ErrorMessage em = (ErrorMessage)reply;
-            if (errorId == null && em.getMessageId() != null) {
-                errorId = em.getMessageId();
-            }
-            getGUI().showErrorMessage(errorId, em.getMessage());
+            RunErrorMsg(errorId, reply);
         } else {
             throw new IllegalStateException("Bogus tag: " + reply.getType());
         }
         return null;
     }
+
+
+	private void RunErrorMsg(String errorId, DOMMessage reply) {
+		ErrorMessage em = (ErrorMessage)reply;
+		if (errorId == null && em.getMessageId() != null) {
+		    errorId = em.getMessageId();
+		}
+		getGUI().showErrorMessage(errorId, em.getMessage());
+	}
         
     /**
      * Starts the client and connects to <i>host:port</i>.
@@ -206,9 +211,7 @@ public final class ConnectController extends FreeColClientHolder {
         final FreeColClient fcc = getFreeColClient();
         fcc.setMapEditor(false);
  
-        try {
-            askServer().disconnect();
-        } catch (IOException ioe) {} // Ignore            
+        askDisconnect();           
 
         // Establish the full connection here
         String message = null;
@@ -231,7 +234,15 @@ public final class ConnectController extends FreeColClientHolder {
         // Ask the server to log in a player with the given user name
         // and return the game with the player inside.
         // The work is done in PGIH.login().
-        Game game;
+        return askLogin(user);
+    }
+
+
+	/**
+	 * @param user
+	 */
+	private boolean askLogin(String user) {
+		Game game;
         if (!askServer().login(user, FreeCol.getVersion())
             || (game = getGame()) == null) {
             getGUI().showErrorMessage("server.couldNotLogin");
@@ -240,7 +251,17 @@ public final class ConnectController extends FreeColClientHolder {
             return false; // Error handled in PGIH.login
         }
         return true;
-    }
+	}
+
+
+	/**
+	 * 
+	 */
+	private void askDisconnect() {
+		try {
+            askServer().disconnect();
+        } catch (IOException ioe) {} // Ignore 
+	}
 
     //
     // There are several ways to start a game.
@@ -315,7 +336,20 @@ public final class ConnectController extends FreeColClientHolder {
             : null;        
         if (state == null) return false;
 
-        switch (state) {
+        return getState(host, port, fcc, state);
+    }
+
+
+	/**
+	 * @param host
+	 * @param port
+	 * @param fcc
+	 * @param state
+	 */
+	private boolean getState(String host, int port, final FreeColClient fcc,
+			GameState state) {
+		DOMMessage msg;
+		switch (state) {
         case STARTING_GAME:
             if (!login(FreeCol.getName(), host, port)) return false;
             fcc.setLoggedIn(true);
@@ -352,8 +386,8 @@ public final class ConnectController extends FreeColClientHolder {
             getGUI().showErrorMessage("client.ending");
             return false;
         }
-        return true;
-    }
+		return true;
+	}
 
     /**
      * Starts a new single player game by connecting to the server.
@@ -389,9 +423,7 @@ public final class ConnectController extends FreeColClientHolder {
                    freeColServer.getPort())) return false;
 
         final ClientOptions co = getClientOptions();
-        if (co.getBoolean(ClientOptions.AUTOSAVE_DELETE)) {
-            FreeColServer.removeAutosaves(co.getText(ClientOptions.AUTO_SAVE_PREFIX));
-        }
+        configClientOptionAutosave(co);
         fcc.getPreGameController().setReady(true);
         if (skip) {
             fcc.getPreGameController().requestLaunch();
@@ -400,6 +432,16 @@ public final class ConnectController extends FreeColClientHolder {
         }
         return true;
     }
+
+
+	/**
+	 * @param co
+	 */
+	private void configClientOptionAutosave(final ClientOptions co) {
+		if (co.getBoolean(ClientOptions.AUTOSAVE_DELETE)) {
+            FreeColServer.removeAutosaves(co.getText(ClientOptions.AUTO_SAVE_PREFIX));
+        }
+	}
 
     /**
      * Loads and starts a game from the given file.

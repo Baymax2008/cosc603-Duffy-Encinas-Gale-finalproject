@@ -171,24 +171,26 @@ public class FlagTest extends JFrame implements ActionListener, ItemListener {
         Decoration newDecoration = (Decoration) decoration.getSelectedItem();
         UnionPosition newPosition = (UnionPosition) union.getSelectedItem();
         UnionShape newShape = (UnionShape) unionShape.getSelectedItem();
-        Flag newFlag = FLAGS[flags.getSelectedIndex()];
+        getFlags(e, newBackground, newDecoration, newPosition, newShape);
+        stripes.setEnabled(newBackground == Background.PALES
+                           || newBackground == Background.FESSES);
+
+        label.setIcon(new ImageIcon(flag.getImage()));
+    }
+
+	/**
+	 * @param e
+	 * @param newBackground
+	 * @param newDecoration
+	 * @param newPosition
+	 * @param newShape
+	 */
+	private void getFlags(ItemEvent e, Background newBackground,
+			Decoration newDecoration, UnionPosition newPosition,
+			UnionShape newShape) {
+		Flag newFlag = FLAGS[flags.getSelectedIndex()];
         if (e == null || e.getSource() == flags) {
-            if (newFlag == null) {
-                // custom
-                enable(customComponents, true);
-            } else {
-                enable(customComponents, false);
-                flag = newFlag;
-                unionColor.setColor(flag.getUnionColor());
-                starColor.setColor(flag.getStarColor());
-                decorationColor.setColor(flag.getDecorationColor());
-                List<Color> colors = flag.getBackgroundColors();
-                for (int index = 0; index < backgroundColors.length; index++) {
-                    Color color = (index < colors.size())
-                        ? colors.get(index) : null;
-                    backgroundColors[index].setColor(color);
-                }
-            }
+            getFlagCheck(newFlag);
         } else {
             if (newFlag == null) {
                 if (e.getSource() == decoration) {
@@ -205,11 +207,29 @@ public class FlagTest extends JFrame implements ActionListener, ItemListener {
             }
             flag.setStars(stars.getSelectedIndex() + 1);
         }
-        stripes.setEnabled(newBackground == Background.PALES
-                           || newBackground == Background.FESSES);
+	}
 
-        label.setIcon(new ImageIcon(flag.getImage()));
-    }
+	/**
+	 * @param newFlag
+	 */
+	private void getFlagCheck(Flag newFlag) {
+		if (newFlag == null) {
+		    // custom
+		    enable(customComponents, true);
+		} else {
+		    enable(customComponents, false);
+		    flag = newFlag;
+		    unionColor.setColor(flag.getUnionColor());
+		    starColor.setColor(flag.getStarColor());
+		    decorationColor.setColor(flag.getDecorationColor());
+		    List<Color> colors = flag.getBackgroundColors();
+		    for (int index = 0; index < backgroundColors.length; index++) {
+		        Color color = (index < colors.size())
+		            ? colors.get(index) : null;
+		        backgroundColors[index].setColor(color);
+		    }
+		}
+	}
 
     @Override
     public void actionPerformed(ActionEvent ae) {

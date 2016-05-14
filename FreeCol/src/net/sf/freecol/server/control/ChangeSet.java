@@ -1835,7 +1835,16 @@ public class ChangeSet {
         NamedNodeMap nnm1 = e1.getAttributes();
         NamedNodeMap nnm2 = e2.getAttributes();
         if (nnm1.getLength() != nnm2.getLength()) return false;
-        for (int i = 0; i < nnm1.getLength(); i++) {
+        
+        return getCollapse(nnm1, nnm2);
+    }
+
+	/**
+	 * @param nnm1
+	 * @param nnm2
+	 */
+	private static boolean getCollapse(NamedNodeMap nnm1, NamedNodeMap nnm2) {
+		for (int i = 0; i < nnm1.getLength(); i++) {
             if (nnm1.item(i).getNodeType() != nnm2.item(i).getNodeType()) {
                 return false;
             }
@@ -1846,8 +1855,8 @@ public class ChangeSet {
                 return false;
             }
         }
-        return true;
-    }
+		return true;
+	}
 
     /**
      * Collapse adjacent elements in a list with the same tag.
@@ -1911,6 +1920,7 @@ public class ChangeSet {
         // children then return multiple, if there is one viable part,
         // return that, if there is none return null unless there are
         // attributes in which case they become viable as an update.
+        //Element result = buildResult(elements, diverted, doc);
         Element result;
         switch (elements.size()) {
         case 0:
@@ -1924,10 +1934,13 @@ public class ChangeSet {
             result = new MultipleMessage(elements).toXMLElement();
             break;
         }
+		//return result;
         result = (Element)doc.importNode(result, true);
         for (Change change : diverted) change.attachToElement(result);
         return result;
     }
+
+	
 
     /**
      * {@inheritDoc}

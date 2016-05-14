@@ -262,7 +262,15 @@ public class FreeColDebugger {
         // Zero => signalEndDebugRun was called
         setDebugRunTurns(-1);
 
-        if (getDebugRunSave() != null) {
+        saveAndQuit(freeColClient);
+        return true;
+    }
+
+	/**
+	 * @param freeColClient
+	 */
+	private static void saveAndQuit(FreeColClient freeColClient) {
+		if (getDebugRunSave() != null) {
             FreeColServer fcs = freeColClient.getFreeColServer();
             if (fcs != null) {
                 try {
@@ -272,8 +280,7 @@ public class FreeColDebugger {
             }
             freeColClient.quit();
         }
-        return true;
-    }
+	}
     
     /**
      * Signal that a debug run should complete at the next suitable

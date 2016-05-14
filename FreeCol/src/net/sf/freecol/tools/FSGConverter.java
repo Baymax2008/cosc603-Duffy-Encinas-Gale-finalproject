@@ -124,48 +124,58 @@ public class FSGConverter {
             }
 
             // Support for XML comments has not been added:
-            int indent = 0;
-            int i;      
-            while ((i = in.read()) != -1) {
-                char c = (char) i;
-                if (c == '<') {
-                    i = in.read();
-                    char b = (char) i;
-                    if (b == '/') {
-                        indent -= 4;
-                    }
-                    for (int h=0; h<indent; h++) {
-                        out.write(' ');
-                    }
-                    out.write(c);
-                    if (b != '\n' && b != '\r') {
-                        out.write(b);
-                    }
-                    if (b != '/' && b != '?') {
-                        indent += 4;
-                    }
-                } else if (c == '/') {
-                    out.write(c);
-                    i = in.read();
-                    c = (char) i;
-                    if (c == '>') {
-                        indent -= 4;
-                        out.write(c);
-                        out.write('\n');
-                    }
-                } else if (c == '>') {
-                    out.write(c);
-                    out.write('\n');
-                } else if (c != '\n' && c != '\r') {
-                    out.write(c);
-                }           
-            }
+            createXML(in, out);
 
         } finally {
             in.close();
             out.close();
         }
     }
+
+
+	/**
+	 * @param in
+	 * @param out
+	 * @throws IOException
+	 */
+	private void createXML(InputStream in, OutputStream out) throws IOException {
+		int indent = 0;
+		int i;      
+		while ((i = in.read()) != -1) {
+		    char c = (char) i;
+		    if (c == '<') {
+		        i = in.read();
+		        char b = (char) i;
+		        if (b == '/') {
+		            indent -= 4;
+		        }
+		        for (int h=0; h<indent; h++) {
+		            out.write(' ');
+		        }
+		        out.write(c);
+		        if (b != '\n' && b != '\r') {
+		            out.write(b);
+		        }
+		        if (b != '/' && b != '?') {
+		            indent += 4;
+		        }
+		    } else if (c == '/') {
+		        out.write(c);
+		        i = in.read();
+		        c = (char) i;
+		        if (c == '>') {
+		            indent -= 4;
+		            out.write(c);
+		            out.write('\n');
+		        }
+		    } else if (c == '>') {
+		        out.write(c);
+		        out.write('\n');
+		    } else if (c != '\n' && c != '\r') {
+		        out.write(c);
+		    }           
+		}
+	}
     
     
     /**
